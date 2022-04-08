@@ -11,10 +11,17 @@
     "declaration": true, /* Generates corresponding '.d.ts' file. */
     "strictNullChecks": true,
     "resolveJsonModule": true,
+    "rootDir": ".",
+    "skipLibCheck": true,
   },
+  "include": [
+    "./lib",
+    "./index.ts",
+  ],
   "exclude": [
+    "./node_modules",
     "example_node_replace_css.js",
     "example_node_replace_react.js",
     "example_node_replace.js",
-  ]
+  ],
 }
